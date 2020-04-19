@@ -1,4 +1,4 @@
-﻿namespace AutoClicker
+﻿namespace Danisoft.AutoClicker
 {
     using System;
     using System.Threading;
@@ -7,12 +7,12 @@
 
     using InputManager;
 
-    public partial class Form1 : Form
+    public partial class Mainform : Form
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="Form1"/> class.
+        /// Initializes a new instance of the <see cref="Mainform"/> class.
         /// </summary>
-        public Form1()
+        public Mainform()
         {
             this.InitializeComponent();
         }
