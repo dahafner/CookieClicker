@@ -1,12 +1,11 @@
-﻿namespace Danisoft.AutoClicker
+﻿using System;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using InputManager;
+
+namespace Danisoft.AutoClicker
 {
-    using System;
-    using System.Threading;
-    using System.Threading.Tasks;
-    using System.Windows.Forms;
-
-    using InputManager;
-
     public partial class Mainform : Form
     {
         /// <summary>
@@ -34,7 +33,7 @@
             this.totalClicks = 0;
 
             while (DateTime.Now < datetime)
-            {
+            {                
                 Mouse.PressButton(Mouse.MouseKeys.Left);
                 Thread.Sleep((int)this.nudPause1.Value);
                 this.totalClicks++;
