@@ -1,3 +1,4 @@
 # CookieClicker
 
-Clicks as fast as possible
+Simulate mouse clicks as fast as possible
+- Used for CookieClicker
